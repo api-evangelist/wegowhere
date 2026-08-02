@@ -1,8 +1,27 @@
 aid: wegowhere
 name: WeGoWhere
-description: WeGoWhere is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: WeGoWhere is a consumer social-activity coordination mobile app (originally
+  launched as EatMatch) that helps friends discover what the people around them are
+  doing and join those plans in real life. Available on iOS and Android with more
+  than 700,000 active users, the app centers each hangout on a dedicated group chat
+  for attendees plus high-resolution photo and video sharing, spanning activities
+  such as dining, movies, photography, sports, karaoke, and general socializing. Based
+  in Bangkok, Thailand, the company raised US$1.2M in seed funding in 2023 and is backed
+  by 500 Global. WeGoWhere is a consumer mobile product and does not currently publish
+  a public API, developer platform, or SDK.
 url: https://raw.githubusercontent.com/api-evangelist/wegowhere/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/645e91988df36ff0db32b193/6460e95fb2d9344aaa85e33c_icon-30.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Social
+- Mobile App
+- Social Networking
+- Activity Planning
+- Events
+- Consumer
+- Thailand
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://wegowhere.com
+  url: https://www.wegowhere.com
+- type: Blog
+  url: https://www.wegowhere.com/blog
+- type: SignUp
+  url: https://link.wegowhere.com/download
+- type: Support
+  url: mailto:ty@wegowhere.com
+- type: TermsOfService
+  url: https://wegowhere.notion.site/tou
+- type: PrivacyPolicy
+  url: https://wegowhere.notion.site/pp
+- type: DomainSecurity
+  url: security/wegowhere-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
