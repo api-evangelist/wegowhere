@@ -10,6 +10,17 @@ description: WeGoWhere is a consumer social-activity coordination mobile app (or
   by 500 Global. WeGoWhere is a consumer mobile product and does not currently publish
   a public API, developer platform, or SDK.
 url: https://raw.githubusercontent.com/api-evangelist/wegowhere/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
