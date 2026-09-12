@@ -1,15 +1,15 @@
 ---
 kin_checks:
   slug: wegowhere
-  schema_version: 0.18.2
-  scored_at: '2026-09-04'
-  run_ts: 2026-09-04T062714
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
+  run_ts: 2026-09-12T080032
   note: Actionable checks only (missed + partial). earned/na are every other check
-    in rubric/scoring-0.18.2.yml; counts below let you verify that.
+    in rubric/scoring-0.21.0.yml; counts below let you verify that.
   counts:
-    total: 132
+    total: 136
     earned: 10
-    partial: 0
+    partial: 4
     missed: 78
     na: 44
   checks:
@@ -107,12 +107,6 @@ kin_checks:
     status: missed
   - id: pricing_link
     status: missed
-  - id: terms_of_service
-    status: missed
-    detail: pointer liveness 0.0
-  - id: privacy_policy
-    status: missed
-    detail: pointer liveness 0.0
   - id: finops_mapped
     status: missed
   - id: compliance_published
@@ -125,15 +119,17 @@ kin_checks:
     status: missed
   - id: reg_vulnerability_disclosure
     status: missed
-  - id: reg_terms_of_service
-    status: missed
-    detail: pointer liveness 0.0
-  - id: reg_privacy_policy
-    status: missed
-    detail: pointer liveness 0.0
   - id: reg_compliance_published
     status: missed
   - id: reg_standards_conformance
+    status: missed
+  - id: upsert_outcome_discriminator
+    status: missed
+  - id: upsert_alternate_key
+    status: missed
+  - id: upsert_named
+    status: missed
+  - id: upsert_declared_conflict
     status: missed
   - id: spec_presence
     status: missed
@@ -173,3 +169,19 @@ kin_checks:
     status: missed
   - id: agentic_commerce
     status: missed
+  - id: terms_of_service
+    status: partial
+    earned: 2.0
+    detail: pointer liveness 0.5
+  - id: privacy_policy
+    status: partial
+    earned: 2.0
+    detail: pointer liveness 0.5
+  - id: reg_terms_of_service
+    status: partial
+    earned: 2.0
+    detail: pointer liveness 0.5
+  - id: reg_privacy_policy
+    status: partial
+    earned: 2.0
+    detail: pointer liveness 0.5
